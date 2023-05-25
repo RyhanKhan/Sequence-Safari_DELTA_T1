@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox {
+    /* position: absolute; */
+    /* top: 9px;
+    right: 200px; */
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#timerBox {
+    /* position: absolute; */
+    /* top: 9px;
+    left: 5px; */
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttonwa {
+    height: 7vmin;
+    width: 10vmin;
+    border-radius: 15%;
+    font-size: 2vmin;
+    background-color: black;
+    color: pink;
+    border-color: pink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#hiscoreBox {
+    /* position: absolute; */
+    /* top: 50px;
+    right: 200px; */
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#leaderboard {
+    /* position: absolute; */
+    /* bottom: 50px;
+    right: 200px; */
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#board {
+    background: linear-gradient(green, yellow);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+}
+#sequenceKyaHai{
+    /* position: absolute; */
+    /* top: 100px;
+    right: 200px; */
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    background-color: blue;
+    border: .25vmin solid black;
+    /* transform: scale(1.02); */
+    border-radius: 9px;
+}
+
+.snake {
+    background-color: lightblue;
+    border: .20vmin solid black;
+    border-radius: 12px;
+    transform: scale(0.90);
+}
+
+.food {
+    background-color: red;
+    border: .25vmin solid black;
+    border-radius: 50%;
+    transform: scale(0.95);
+
+}
+.food2 {
+    background-color: lime;
+    border: .25vmin solid black;
+    border-radius: 50%;
+    transform: scale(0.95);
+
+}
+.food3 {
+    background-color: purple;
+    border: .25vmin solid black;
+    border-radius: 50%;
+    transform: scale(0.95);
+
+}
+.food4 {
+    background-color:yellow;
+    border: .25vmin solid black;
+    border-radius: 50%;
+    transform: scale(0.95);
+}
